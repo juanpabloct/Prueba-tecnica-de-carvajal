@@ -1,0 +1,24 @@
+{
+  "name": "prueba-tecnica-de-carvajal",
+  "version": "1.0.0",
+  "description": "Es un proyecto elaborador para gestionar una libreta de datos (nombre, apellido, correos, telefono, celular) ",
+  "main": "index.js",
+  "scripts": {
+    "start":"node src/index.js",
+    "dev":"nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Prueba tecnica carvajal"
+  },
+  "author": "Juan Pablo Castellanos Torres",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
