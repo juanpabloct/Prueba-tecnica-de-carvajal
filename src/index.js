@@ -4,6 +4,7 @@ const port = 9000;
 const morgan = require("morgan");
 
 const taskRoutes = require("./routes/task.routes.js");
+app.use(express.json());
 
 app.use(morgan("dev"));
 //Routes
